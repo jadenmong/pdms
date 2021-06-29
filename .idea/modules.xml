@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/len-activiti/len-activiti.iml" filepath="$PROJECT_DIR$/len-activiti/len-activiti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-admin/len-admin.iml" filepath="$PROJECT_DIR$/len-admin/len-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-blog/len-blog.iml" filepath="$PROJECT_DIR$/len-blog/len-blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-core/len-core.iml" filepath="$PROJECT_DIR$/len-core/len-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-entity/len-entity.iml" filepath="$PROJECT_DIR$/len-entity/len-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-pdms-service-provider/len-pdms-provider.iml" filepath="$PROJECT_DIR$/len-pdms-service-provider/len-pdms-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-pdms-service-api/len-pdms-service-api.iml" filepath="$PROJECT_DIR$/len-pdms-service-api/len-pdms-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-pdms-web/len-pdms-web.iml" filepath="$PROJECT_DIR$/len-pdms-web/len-pdms-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-pdnms-model/len-pdnms-model.iml" filepath="$PROJECT_DIR$/len-pdnms-model/len-pdnms-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-sys/len-sys.iml" filepath="$PROJECT_DIR$/len-sys/len-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/len-web/len-web.iml" filepath="$PROJECT_DIR$/len-web/len-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lenosp.iml" filepath="$PROJECT_DIR$/lenosp.iml" />
+    </modules>
+  </component>
+</project>

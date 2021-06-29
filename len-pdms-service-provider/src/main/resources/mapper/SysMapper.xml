@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.len.pdms.service.provider.mapper.SysMapper">
+    <insert id="addUser" parameterType="map" >
+        insert into lenos.sys_user (id,username,password,create_date) values(#{id},#{username},#{password},#{create_date});
+    </insert>
+
+    <insert id="addUserRole" parameterType="map">
+        insert into lenos.sys_role_user (user_id,role_id) values(#{user_id}, #{role_id});
+    </insert>
+
+    <select id="getUserId" parameterType="String" resultType="String">
+        select id from lenos.sys_user where username = #{username}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,7 @@
+com\len\entity\SysLog.class
+com\len\entity\SysJob.class
+com\len\entity\SysRoleUser.class
+com\len\entity\SysUser.class
+com\len\entity\SysMenu.class
+com\len\entity\SysRole.class
+com\len\entity\SysRoleMenu.class

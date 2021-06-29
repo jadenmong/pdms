@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="len-web" />
+        <module name="len-admin" />
+        <module name="len-core" />
+        <module name="len-pdms-service-api" />
+        <module name="len-pdms-provider" />
+        <module name="len-entity" />
+        <module name="len-activiti" />
+        <module name="len-pdms-web" />
+        <module name="len-blog" />
+        <module name="len-sys" />
+        <module name="len-pdnms-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="len-activiti" target="1.8" />
+      <module name="len-admin" target="1.8" />
+      <module name="len-blog" target="1.8" />
+      <module name="len-core" target="1.8" />
+      <module name="len-entity" target="1.8" />
+      <module name="len-pdms-provider" target="1.8" />
+      <module name="len-pdms-service-api" target="1.8" />
+      <module name="len-pdms-web" target="1.8" />
+      <module name="len-pdnms-model" target="1.8" />
+      <module name="len-sys" target="1.8" />
+      <module name="len-web" target="1.8" />
+      <module name="lenosp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="len-activiti" options="-parameters" />
+      <module name="len-admin" options="-parameters" />
+      <module name="len-blog" options="-parameters" />
+      <module name="len-core" options="-parameters" />
+      <module name="len-entity" options="-parameters" />
+      <module name="len-pdms-provider" options="-parameters" />
+      <module name="len-pdms-service-api" options="-parameters" />
+      <module name="len-pdms-web" options="-parameters" />
+      <module name="len-pdnms-model" options="-parameters" />
+      <module name="len-sys" options="-parameters" />
+      <module name="len-web" options="-parameters" />
+    </option>
+  </component>
+</project>
